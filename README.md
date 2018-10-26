@@ -74,6 +74,14 @@ some examples?
 
 ## How are git and Github incorporated into the Turing curriculum?  
 ### Why teach Github over another service like Bitbucket?
+There are a few reasons for that. GitHub was the first and is now the most ubiquitous hosting
+service for Git repositories. It has also been fundamental in making Git more
+approachable. On a more personal level, it was built in ruby (the first language
+that we taught at Turing) and has been really supportive to the ruby community.
+The organization has also been super supportive of us as a non profit
+organization by providing free unlimited public and private repositories, and it
+just so happens that we have 10 or so alums and/or former teachers that work
+there.
 
 ## How can a beginner get started on learning how to use git and Github?
 
