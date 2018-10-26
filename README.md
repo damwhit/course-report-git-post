@@ -10,7 +10,10 @@ on, which may contain files and subfolders ie. a codebase) through a series of
 sophisticated version control type features such as microsoft word's 'go back'
 feature that allows you to go back to previously saved version of a file. Git
 takes it to the next level by allowing us to decide exactly when we save a
-version of a project and it allows us to provide annotations when doing so. 
+version of a project and it allows us to provide annotations when doing so. One
+thing to keep in mind is that Git is most often used 'locally', which just means
+on your computer. That is in contrast to GitHub, which is a website that hosts
+Git repositories.
 
 Git was originally developed by Linus Torvalds, while maintaining the Linux
 kernel (An operating system that runs the majority of smartphones, tablets,
@@ -23,18 +26,18 @@ open source project that can be found on GitHub
 
 Git is used for keeping track of projects over time. It provides a way to save
 multiple files and folders associated with the same project all at once, instead
-of individually. 
+of individually.
 
 Imagine that you're writing a blog post that has multiple files
 associated with it. You may have one main text file which is the actual post, an
 additional file for references, as well as some other files that are diagrams
-and other images. 
+and other images.
 
 Without Git, you may have all of these various files stored in a folder on your
 computer, but there is no way to tell the status of all of these moving pieces
 at different points in time. With Git we can track the entire repository at
 various points in time using commits. When we get our blog post to a good place,
-we are able to save every file at once by making a commit, and provide annotations 
+we are able to save every file at once by making a commit, and provide annotations
 on where it is at that point in time. Having all of these commits provides a
 clear history of our project and a means to travel back in time to previous
 versions of the project.
@@ -47,18 +50,39 @@ repository via commit. This is usually done when incremental progress has been
 made and the feature is roughly bug free. In making the commit, the developer
 can provide annotations around the what and the why the feature was built. This
 message adds to the history of the project and can make it easy to determine
-when a certain feature or bug was introduced. 
+when a certain feature or bug was introduced.
 
-## What is Github and what are its origins? How did its creation change the way people collaborate?  
+## What is Github and what are its origins? How did its creation change the way people collaborate?
 Note: I’ve heard nice comparisons in the past to Google
 Drive that explain the concept of version control to a beginner – if you have an
 analogy like that, it would be great!
 
-## How do most developers use Git and Github in their workflow? Can you give
-some examples?
+GitHub, which was developed in 2008, is a website that allows us to host Git repositories. This is super
+useful in that it allows us to share code between our own computers seemlessy as
+well as with other developers. It has added features to Git through it's
+interface that are an essential in most team workflows. Features include, but
+are not limited to: 
+1. pull requests, which are a place where developers can
+   propose changes from one branch to another and is a place where most code
+   reviews happen.
+2. issues, which allow people to list bugs, enhancements, or other requests that
+   are associated with a given repository.
 
-## What sort of companies use Github for their development process?  
-### Can you give some examples?  
+## How do most developers use Git and Github in their workflow? Can you give some examples?
+
+Most developers follow a similar workflow to:
+
+1. Create local branch
+2. Write some commits within local branch
+3. Push to Github
+4. Create Pull Request explaining changes that branch contains and have team
+   members conduct a code review
+5. Merge to master once changes are approved
+6. Pull down new master commits locally
+7. Repeat
+
+## What sort of companies use Github for their development process?
+### Can you give some examples?
 ### How widely used is it?
 
 ## What are some alternatives to git and Github?
@@ -67,12 +91,12 @@ some examples?
 
 ## Do all developers need to know how to use git or another version control system?
 
-## What kind of jobs require knowledge of git and Github? Examples? 
+## What kind of jobs require knowledge of git and Github? Examples?
 
-## How important is it for beginner coders to learn how to use git?  
-### Is this something you learn in a CS degree? 
+## How important is it for beginner coders to learn how to use git?
+### Is this something you learn in a CS degree?
 
-## How are git and Github incorporated into the Turing curriculum?  
+## How are git and Github incorporated into the Turing curriculum?
 ### Why teach Github over another service like Bitbucket?
 There are a few reasons for that. GitHub was the first and is now the most ubiquitous hosting
 service for Git repositories. It has also been fundamental in making Git more
