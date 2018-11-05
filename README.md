@@ -83,14 +83,17 @@ Some of the most important tools GitHub layers on top of Git include:
 ## How do most developers use Git and Github in their workflow? Can you give some examples?
 
 Imagine I'm working on a project on my laptop at work, once I get to a place
-where I'm happy with my progress. I can make a commit and then **push* my repo
+where I'm happy with my progress. I can make a commit and then **push** my repo
 up to GitHub. When I get home, if I want to continue adding changes to the blog
-post on my desktop computer, I can *pull* it down and continue working where I
+post on my desktop computer, I can **pull** it down and continue working where I
 left off.
+
+![git and github diagram for commits, pushing, and
+pulling](./images/git-and-github.png)
 
 I can repeat the above process with few issues if I'm working on my own.
 However, if I decide to pull in one of my team members to work with me on the
-project, we need to incorporate ****branching** into our workflow. **Branching**
+project, we need to incorporate **branching** into our workflow. Branching
 makes it easier for us to update the same project simultaneously with limited
 headaches.  The master branch is typically the one that should remain bug free
 throughout the duration of a project. Therefore, most of the time developers
