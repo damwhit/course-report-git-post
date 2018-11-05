@@ -2,33 +2,37 @@
 
 ## What is git and what are its origins?
 
-Git is a Version Control System (VCS). That may sound super fancy and technical,
-but it's really just a tracking tool that allows us to keep track of differences
-in a file or files over time. You've likely experienced less sophisticated
+Have you ever seen a document named something like `report_final_draft_final(3).doc`? 
+Keeping track of the changes to a file over time is difficult but important.
+
+Git is a Version Control System (VCS) -- a tool that helps us to keep track of differences
+in a file or collection of files over time. You've likely experienced less sophisticated
 version control like features such as Microsoft Word's undo or 'go back'
-features that allows you to return to a previously saved version of a file.  Git
+features that allows you to return to a previously saved version of a file. Maybe you've
+created your own version control by saving drafts of a file with different numbered filenames. Git
 takes it to the next level by allowing us to decide exactly when we save a
-version of a project and it allows us to provide annotations when doing so. We
-create versions of a project by making it a **repository** also commonly
+version of a project and it allows us to provide annotations when doing so. 
+
+We create versions of a project by making it a **repository** also commonly
 referred to as a 'repo' (A folder with git tracking turned on, which may contain
 files and subfolders ie. a codebase) through a series of **intentional**
 snapshots called **commits**. One thing to keep in mind is that Git is most
 often used 'locally', which just means on your computer. That is in contrast to
 GitHub, which is a website that hosts Git repositories.
 
-Git was originally developed by Linus Torvalds, while maintaining the Linux
+[Git](https://github.com/git/git) was originally developed by Linus Torvalds, while maintaining the Linux
 kernel (An operating system that runs the majority of smartphones, tablets,
-servers, and supercomputers across the globe) in April of 2005, because his team
-lost free access to the proprietary VCS they were using at the time. It is an
-actively maintained open source project that can be found on GitHub
-[here](https://github.com/git/git).
+servers, and supercomputers across the globe) in 2005. 
 
 ## What is git used for? Can you give some examples?
 
-Git is used for logging the history of a project over time. It provides a way to
-save multiple files and folders associated with the same project all at once,
-instead of individually. It also provides a way for people to work on the same
-project and files at once with minimal issues.
+Git is used for managing the changes to a project over time. A project might be
+just a single file, a handful of files, or thousands of files. Those files can be
+anything from plain text to images or videos.
+
+Because Git is focused on managing changes, it is often used as a collaboration tool
+allowing people to work on the same project at the same time. By tracking  
+their individual changes, Git can bring everything together to the final version.
 
 Imagine that you're writing a blog post that has multiple files associated with
 it. You may have one main text file which is the actual post, an additional file
@@ -36,37 +40,41 @@ for references, as well as some other files that are diagrams and other images.
 
 Without Git, you may have all of these various files stored in a folder on your
 computer, but there is no way to tell the status of all of these moving pieces
-at different points in time. With Git we can track the entire repo at various
-points in time using commits. When we get our blog post to a good place, we are
-able to save every file at once by making a commit, and provide annotations on
-why we decided to save the folder at that point in time. Having all of these
-commits provides a clear history of our project, and also a means to travel back
-in that history, if necessary.
+at different points in time. Imagine you send your post to two friends to copyedit.
+How do you merge their changes back together? Maybe another friend does color adjustments
+on a photo in the article. Which file is the original, which is edited?
 
-You may think that a blog post is a bad example, however codebases are really
-aren't that different. They are at their most basic level, a series of text and
-image files that are linked to one another. When a developer is working on a
+With Git we can track the whole repo at various points in time using commits. 
+When we get our blog post to a good place, we create a snapshot called a commit, 
+and provide annotations on why we decided to save the project at that point in time. 
+Later, we can browse this history of commits to see a clear history of our project, 
+and also a means to travel back in that history, if necessary.
+
+A software codebase works just like that blog post. At their most basic level they are 
+a collection of files that are linked to one another. When a developer is working on a
 certain feature, Git provides a means to save a snapshot of the entire repo via
 a commit. This is usually done when incremental progress has been made and a
-feature is roughly bug free. In making the commit, the developer can provide
-annotations around the what and the why the feature was built. This message adds
+feature is bug-free. In making the commit, the developer can provide
+annotations explaining what was changed and why it was changed. This message adds
 to the history of the project and can make it easy to determine when a certain
-feature or bug was introduced.
+feature -- or even a bug -- was introduced.
 
 ## What is Github and what are its origins? How did its creation change the way people collaborate?
 
-GitHub, developed in 2008, is a website that allows us to host Git repositories
-on the internet.  This is super useful in that it allows us to share code
-between our own computers seemlessy as well as with other developers. It's
-exponentially easier to contribute to open source software as most open source
-projects are hosted on GitHub.  For example, if you want to propose changes to
-some source code or add documentation for react js, today, you can do so.
+GitHub, developed in 2008, is a web application that hosts Git repositories.  
+The team that started GitHub saw that Git could solve important problems for
+many teams -- but Git itself is often difficult to use. GitHub adds a whole bunch
+of collaboration and exploration tools on top of Git to help us be more productive.
 
-It has also added features to Git through it's interface that are an essential
-in most team workflows. Features include, but are not limited to:
-1. pull requests, which are a place where developers can propose changes to a
-   codebase and where most code discussion and review happens.
-2. issues, which allow people to list bugs, enhancements, or other requests that
+For instance, GitHub makes it easy to share code
+between multiple computers and developers. It's become the centralized organizing
+tool of the open source community and, in turn, is used by thousands of companies
+and teams. Some GitHub users have one repo they work with every day, some have thousands.
+
+Some of the most important tools GitHub layers on top of Git include:
+
+1. *Pull Requests* which are a way for developers to propose changes and solicit feedback/discussion from other developers (called Code Review).
+2. *Issues* which developers use to track bugs, enhancements, or other requests that
    are associated with a given repository.
 
 ## How do most developers use Git and Github in their workflow? Can you give some examples?
