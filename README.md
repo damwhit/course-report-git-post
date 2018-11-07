@@ -49,7 +49,7 @@ adjustments on a photo in the article. Which file is the original, which is
 edited?
 
 With Git you can track the whole repo at various points in time using commits
-and provide annotations on why we decided to save the project at that point in
+and provide annotations on why you decided to save the project at that point in
 time.  Later, we can browse this history of commits to see a clear history of
 our project, and also a means to travel back in that history, if necessary.
 
@@ -86,7 +86,9 @@ Imagine I'm working on a project on my laptop at work, once I get to a place
 where I'm happy with my progress. I can make a commit and then **push** my repo
 up to GitHub. When I get home, if I want to continue adding changes to the blog
 post on my desktop computer, I can **pull** it down and continue working where I
-left off.
+left off. I can continue to make commits and push them to GitHub so that my
+project is readily available on any computer I choose to work on. Here's a
+diagram of what that workflow might look like:
 
 ![git and github diagram for commits, pushing, and
 pulling](./images/git-and-github.png)
