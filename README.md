@@ -94,24 +94,14 @@ diagram of what that workflow might look like:
 pulling](./images/git-and-github.png)
 
 I can repeat the above process with few issues if I'm working on my own.
-However, if I decide to pull in one of my team members to work with me on the
-project, we need to incorporate **branching** into our workflow. Branching
-makes it easier for us to update the same project simultaneously with limited
-headaches.  The master branch is typically the one that should remain bug free
-throughout the duration of a project. Therefore, most of the time developers
-work on feature branches and use pull requests to update the master branch with
-their changes.
-
-Most developers follow a workflow similar to this:
-
-1. Create local branch
-2. Write some commits within local branch
-3. Push to Github
-4. Create Pull Request explaining changes that branch contains and have team
-   members conduct a code review
-5. Merge to master once changes are approved
-6. Pull down new master commits locally
-7. Repeat
+However, if I decide to pull in a teammate to work with me on a project, we'll
+need to incorporate **branching** into our workflow. Branching makes it easier
+for us to update the same project simultaneously with limited headaches. If you
+want to go down that rabbit hole, [The GitHub
+Flow](https://guides.github.com/introduction/flow/) is a good explanation of
+what a basic branching workflow looks like. At Turing, we have our students
+incorporate a branching workflow starting in module 1, so that they're really
+comfortable using that workflow by the time they graduate.
 
 ## What sort of companies use Github for their development process?  
 ### Can you give some examples?  
