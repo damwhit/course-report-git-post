@@ -15,9 +15,8 @@ drafts of a file with different numbered filenames. Git takes it to the next
 level by allowing us to decide exactly when we save a version of a project, and
 also provide annotations when doing so. 
 
-You can create versions of a project by making it a **repository** (also called
-a 'repo'). A repo is a folder with git tracking turned on, which may contain
-files and subfolders ie. a codebase) through a series of **intentional**
+You can create versions of a project by making it a **repository** (or 'repo' for short). A repo is a folder with git tracking turned on, which may contain
+files and subfolders (ie. a codebase) through a series of *intentional*
 snapshots called **commits**. One thing to keep in mind is that Git is most
 often used 'locally', which just means on your computer. That is in contrast to
 GitHub, which is a website that hosts Git repositories.
@@ -51,7 +50,7 @@ edited?
 With Git you can track the whole repo at various points in time using commits
 and provide annotations on why you decided to save the project at that point in
 time.  Later, we can browse this history of commits to see a clear history of
-our project, and also a means to travel back in that history, if necessary.
+our project, and also travel back in that history, if necessary.
 
 A software codebase works just like that blog post. At their most basic level
 they are a collection of files that are linked to one another. When a developer
@@ -110,7 +109,7 @@ comfortable using that workflow by the time they graduate.
 Both major corporations and small open source organizations use GitHub for their
 development process. GitHub makes their revenue on paid subscriptions for
 private repositories, which are usually proprietory products. Public
-repositories are free for everyone.
+repositories are free for **everyone**.
 
 Many companies have a mix of both public and private repos as there is a
 precedent of open source altruism in software development. For instance,
@@ -213,13 +212,9 @@ Here's some of my favorites below:
 
 After doing manual data entry and calculations using excel in previous jobs, I
 decided to learn how to program to streamline those processes. I attended the
-Turing back end engineering program in 2015 as a student, and quickly realized
+Turing back-end engineering program in 2015 as a student, and quickly realized
 that not only could I solve these problems with programming, but I also really
-enjoy it.  Before joining Turing as an instructor, I worked at Points of Light
-as a full-stack web developer engineering web applications to help people both
-organize and find volunteer opportunities in their communities. As an
+enjoy it. Before joining Turing as a front-end instructor, I worked at Points of Light as a full-stack web developer engineering web applications to help people both organize and find volunteer opportunities in their communities. As an
 instructor, I pull from my previous experience and try to never speak in
-absolutes. In programming there are few truths and many opinions. When I'm not
-at Turing, I enjoy hanging out with my wife and our dog. I also enjoy cooking,
-eating, snowboarding, backpacking, hiking, and traveling. 
+absolutes. In programming there are few truths and many opinions. My hope is that our students can determine which opinions are reasonable by the time they graduate.
 
