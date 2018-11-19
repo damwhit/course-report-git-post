@@ -2,22 +2,14 @@
 
 ## What is git and what are its origins?
 
-Have you ever had a document named something like
-`report_final_draft_final(3).doc`?  Keeping track of the changes to a file over
-time is difficult but important.
+Have you ever had a document named something like `report_final_draft_final(3).doc`? If so, you've felt the pain of managing and sharing files. Keeping track of the changes to a file over time is difficult but important. Git is a Version Control System (VCS) -- a tool that helps us to keep track of differences in a file or collection of files over time. 
 
-Git is a Version Control System (VCS) -- a tool that helps us to keep track of
-differences in a file or collection of files over time. You've likely
-experienced less sophisticated version control like features such as Microsoft
-Word's undo or 'go back' features that allow you to return to a previously
-saved version of a file. Maybe you've created your own version control by saving
-drafts of a file with different numbered filenames. Git takes it to the next
-level by allowing you to decide exactly when you save a version of a project, and also provide annotations when doing so. 
+You've likely experienced less sophisticated version control like features such as Microsoft Word's undo or 'go back' features that allow you to return to a previously saved version of a file. Maybe you've created your own version control by saving drafts of a file with different numbered filenames. Git takes it to the next level by allowing you to decide exactly when you save a version of a project, and to also provide annotations when doing so. 
 
 You can create versions of a project by making it a **repository** (or 'repo' for short). A repo is a folder with git tracking turned on, which may contain
 files and subfolders (ie. a codebase) through a series of *intentional*
 snapshots called **commits**. One thing to keep in mind is that Git is most
-often used 'locally', which just means on your computer. That is in contrast to
+often used 'locally', which just means on your computer. That's in contrast to
 GitHub, which is a website that hosts Git repositories.
 
 [Git](https://github.com/git/git) was originally developed by Linus Torvalds,
@@ -47,13 +39,13 @@ adjustments on a photo in the article. Which file is the original, which is
 edited?
 
 With Git you can track the whole repo at various points in time using commits
-and provide annotations on why you decided to save the project at that point in
-time.  Later, we can browse this history of commits to see a clear history of
-our project, and also travel back in that history, if necessary.
+while also providing annotations on why you decided to save the project at that point in
+time.  Later, you can browse this history of commits to see a clear history of
+your project, and also travel back in that history, if necessary.
 
-A software codebase works just like that blog post. At their most basic level
-they are a collection of files that are linked to one another. When a developer
-is working on a certain feature, Git provides a means to save a snapshot of the
+A software codebase works just like that blog post. At its most basic level,
+it is a collection of files that are linked to one another. When a developer
+is working on a certain feature, Git provides a way to save a snapshot of the
 entire repo via a commit. This is usually done when incremental progress has
 been made and a feature is bug-free. In making the commit, the developer can
 provide annotations explaining what was changed and why it was changed. This
@@ -64,11 +56,11 @@ when a certain feature -- or even a bug -- was introduced.
 
 GitHub, developed in 2008, is a web application that hosts Git repositories.  
 The team that started GitHub saw that Git could solve important problems for
-many teams -- but Git itself is often difficult to use. GitHub adds bunch
+many teams -- but Git itself is often difficult to use. GitHub adds a bunch
 of collaboration and exploration tools on top of Git to help you (and your team) be more productive.
 
 For instance, GitHub makes it easy to share code
-between multiple computers and developers. It's become the centralized organizing
+between multiple computers and developers. It's become the centralized organization
 tool of the open source community and, in turn, is used by thousands of companies
 and teams. Some GitHub users have one repo they work with every day, some have hundreds.
 
@@ -81,7 +73,7 @@ Some of the most important tools GitHub layers on top of Git include:
 ## How do most developers use Git and Github in their workflow? Can you give some examples?
 
 Imagine I'm working on a project on my laptop at work, once I get to a place
-where I'm happy with my progress. I can make a commit and then **push** my repo
+where I'm happy with my progress, I can make a commit and then **push** my repo
 up to GitHub. When I get home, if I want to continue adding changes to the blog
 post on my desktop computer, I can **pull** it down and continue working where I
 left off. I can continue to make commits and push them to GitHub so that my
@@ -108,12 +100,12 @@ comfortable using that workflow by the time they graduate.
 Both major corporations and small open source organizations use GitHub for their
 development process. GitHub makes their revenue on paid subscriptions for
 private repositories, which are usually proprietory products. Public
-repositories are free for **everyone**.
+repositories are free for everyone.
 
 Many companies have a mix of both public and private repos as there is a
 precedent of open source altruism in software development. For instance,
 Facebook has a ton of open source software on GitHub, including the super
-popular JavaScript framework, react.
+popular JavaScript framework, React.
 
 Netflix, Amazon, Airbnb, Google, and IBM are some other popular companies that
 use Git and GitHub for source code hosting.
@@ -142,7 +134,7 @@ so ubiquitous most other developers have familiarity with it and a lot of open
 source projects are hosted on GitHub, so it's a great place to find and
 contribute to those projects. GitHub also incorporates 3rd party integrations (such as kanban tracking and continous integration) to make workflows easier.
 
-The main disadvantage I can think of with both Git and GitHub is that they both
+The main disadvantage with both Git and GitHub is that they both
 have a fairly steep learning curve.
 
 ## Do all developers need to know how to use git or another version control system?
@@ -155,7 +147,7 @@ history on the projects. I personally can't imagine working on a codebase withou
 ## What kind of jobs require knowledge of git and Github? Examples?
 
 Most software development jobs are going to require some knowledge of Git and
-GitHub. Other job areas that might require some Git and GitHub knowledge are data science, technical documentation, project manager, and product manager roles.
+GitHub. Other job areas that might require some Git and GitHub knowledge are data science, technical documentation, project manager, design, and product manager roles.
 
 ## How important is it for beginner coders to learn how to use git?  
 ### Is this something you learn in a CS degree?
