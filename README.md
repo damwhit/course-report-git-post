@@ -2,18 +2,17 @@
 
 ## What is git and what are its origins?
 
-Have you ever seen a document named something like
+Have you ever had a document named something like
 `report_final_draft_final(3).doc`?  Keeping track of the changes to a file over
 time is difficult but important.
 
 Git is a Version Control System (VCS) -- a tool that helps us to keep track of
 differences in a file or collection of files over time. You've likely
 experienced less sophisticated version control like features such as Microsoft
-Word's undo or 'go back' features that allows you to return to a previously
+Word's undo or 'go back' features that allow you to return to a previously
 saved version of a file. Maybe you've created your own version control by saving
 drafts of a file with different numbered filenames. Git takes it to the next
-level by allowing us to decide exactly when we save a version of a project, and
-also provide annotations when doing so. 
+level by allowing you to decide exactly when you save a version of a project, and also provide annotations when doing so. 
 
 You can create versions of a project by making it a **repository** (or 'repo' for short). A repo is a folder with git tracking turned on, which may contain
 files and subfolders (ie. a codebase) through a series of *intentional*
@@ -71,7 +70,7 @@ of collaboration and exploration tools on top of Git to help you (and your team)
 For instance, GitHub makes it easy to share code
 between multiple computers and developers. It's become the centralized organizing
 tool of the open source community and, in turn, is used by thousands of companies
-and teams. Some GitHub users have one repo they work with every day, some have thousands.
+and teams. Some GitHub users have one repo they work with every day, some have hundreds.
 
 Some of the most important tools GitHub layers on top of Git include:
 
@@ -141,8 +140,7 @@ Reiterating the above, one of the major advantages of Git is that it is a
 distributed VCS that can be used offline. Another major advantage is that it's
 so ubiquitous most other developers have familiarity with it and a lot of open
 source projects are hosted on GitHub, so it's a great place to find and
-contribute to those projects. GitHub also incorporates 3rd party integrations to
-make workflows easier.
+contribute to those projects. GitHub also incorporates 3rd party integrations (such as kanban tracking and continous integration) to make workflows easier.
 
 The main disadvantage I can think of with both Git and GitHub is that they both
 have a fairly steep learning curve.
@@ -152,15 +150,12 @@ have a fairly steep learning curve.
 I know some developers that work on teams that don't use version control and it
 sounds like a nightmare. Bugs that could be caught using version control sneak
 into production and there's no place to conduct code reviews or see
-history on the project. I personally can't imagine working on a codebase without
-version control and would argue that some VCS competency is a must for any
-developer.
+history on the projects. I personally can't imagine working on a codebase without version control and would argue that some VCS competency is a must for any developer.
 
 ## What kind of jobs require knowledge of git and Github? Examples?
 
 Most software development jobs are going to require some knowledge of Git and
-GitHub. Other job areas that might require some Git and GitHub knowledge are data
-science, technical documentation, project manager, and product manager roles.
+GitHub. Other job areas that might require some Git and GitHub knowledge are data science, technical documentation, project manager, and product manager roles.
 
 ## How important is it for beginner coders to learn how to use git?  
 ### Is this something you learn in a CS degree?
@@ -172,7 +167,7 @@ user, you make it easy for potential employers to see your competency at Git,
 programming, and writing technical documentation simultaneously. If I want to
 see how someone writes code, the first thing I'll do is check their GitHub
 profile. It's going to be a much more honest indicator than Linkedin to see how
-someone works as a developer.
+someone works as a developer (as long as their work is public).
 
 Not all CS programs teach Git, but it does seem to be something that more and
 more programs are incorporating. I've also been told that it's something that's
@@ -185,7 +180,7 @@ Git and GitHub are incorporated into the Turing curriculum from day one.
 Students are given a lesson during their first module to go over basic
 commands and workflow. In later modules they're graded on their ability to
 conduct proper pull requests and code reviews during feature development. We
-also introduce more complex worflows they may use in their future jobs.
+also introduce more complex rebase worflows they may use in their future jobs.
 
 We've taught GitHub from the beginning beacuse GitHub was the first Git repo
 hosting service and is also the most commonly used. It has also been fundamental
@@ -193,28 +188,26 @@ in making Git more approachable for folks learning it. On a more personal
 organizational level, it was built in ruby (the first language that we taught at
 Turing) and has been really supportive to the ruby community. The organization
 has also been super supportive of us as a non-profit organization by providing unlimited free public and private repositories, and it just so happens that we
-have 10 or so alums and/or former teachers who work there.
+have 10 or so alums and/or former instructors who work there.
 
 ## How can a beginner get started on learning how to use git and Github?
 
 There are ton of great resources out there for learning Git and GitHub. 
 
 Here's some of my favorites below:
+
 * If you like video tutorials, this is a great one on Git basics: [Git
   Real](https://app.pluralsight.com/player?name=6eec00f4-f910-4efc-9698-936948026502&mode=live&clip=0&course=code-school-git-real&author=gregg-pollack)
-* If you have a more kinesthetic learning style, you can check out a code
-  academy course that we use as supplementary homework
-[here](https://www.codecademy.com/pt-BR/learn/learn-git)
+* If you have a more kinesthetic learning style, you can check out [this code
+  academy course](https://www.codecademy.com/pt-BR/learn/learn-git) we use as supplementary homework
 * And for all things GitHub related, check out their [Learning
-  Lab](https://lab.github.com) 
+  Lab](https://lab.github.com)
 
 ## Can you give us a brief bio about yourself, your background, and your experience in tech/teaching?
 
-After doing manual data entry and calculations using excel in previous jobs, I
+After doing manual data entry and calculations using Excel in previous jobs, I
 decided to learn how to program to streamline those processes. I attended the
 Turing back-end engineering program in 2015 as a student, and quickly realized
 that not only could I solve these problems with programming, but I also really
-enjoy it. Before joining Turing as a front-end instructor, I worked at Points of Light as a full-stack web developer engineering web applications to help people both organize and find volunteer opportunities in their communities. As an
-instructor, I pull from my previous experience and try to never speak in
-absolutes. In programming there are few truths and many opinions. My hope is that our students can determine which opinions are reasonable by the time they graduate.
-
+enjoy it. Before joining Turing as a front-end instructor, I worked at Points of Light as a full-stack developer engineering web applications to help people both organize and find volunteer opportunities in their communities. As an
+instructor, I pull from my previous experience and try to help students decipher reasonable approaches to solving problems.
